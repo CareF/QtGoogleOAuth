@@ -1,3 +1,6 @@
+# Google OAuth2 credential file
+credentials.json
+
 # C++ objects and libs
 *.slo
 *.lo
