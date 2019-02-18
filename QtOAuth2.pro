@@ -8,7 +8,7 @@ QT       += core gui network networkauth
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = GoogleOAuth
+TARGET = QtOAuth2
 TEMPLATE = app
 
 # The following define makes your compiler emit warnings if you use

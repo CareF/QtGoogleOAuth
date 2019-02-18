@@ -1,5 +1,5 @@
-# QtGoogleOAuth
-A Qt implementation of Google OAuth2
+# QtOAuth2
+A Qt implementation of Google (and maybe other) OAuth2
 
 This lib includes
 
