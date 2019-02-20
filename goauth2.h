@@ -42,6 +42,10 @@ public:
                      const QString &clientSecret = QString(),
                      quint16 port = 0, QNetworkAccessManager *manager = nullptr,
                      QObject *parent = nullptr);
+
+    GOAuth2(QNetworkAccessManager *manager, QObject *parent = nullptr):
+        GOAuth2(QString(), QString(), 0, manager, parent){}
+
     /**
      * \brief GOAuth2 load from json object. Json file should come from
      * \l {https://console.developers.google.com/}{Google API console}
