@@ -33,6 +33,10 @@ GOAuth2::GOAuth2(const QJsonDocument &credentialJson, quint16 port,
         qCWarning(lcGOAuth) << "Fail to parse json file. ";
         return;
     }
+    loadJson(credentialJson);
+}
+
+void GOAuth2::loadJson(const QJsonDocument &credentialJson) {
     loadJson(credentialJson.object());
 }
 

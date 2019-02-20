@@ -51,6 +51,7 @@ public:
             QNetworkAccessManager *manager = nullptr,
             QObject *parent = nullptr);
 
+    void loadJson(const QJsonDocument &credentialJson);
     void loadJson(const QJsonObject &credentialJson);
 
     QNetworkReply *revoke();
